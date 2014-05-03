@@ -24,10 +24,9 @@
 		036701861913F20800061E4E /* ShoppingBagTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 036701851913F20800061E4E /* ShoppingBagTests.m */; };
 		036701901913F2A400061E4E /* TesseractOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0367018F1913F2A400061E4E /* TesseractOCR.framework */; };
 		036701921913F33C00061E4E /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 036701911913F33C00061E4E /* libstdc++.6.0.9.dylib */; };
-		036701981913F50300061E4E /* eng.traineddata in Resources */ = {isa = PBXBuildFile; fileRef = 036701941913F50300061E4E /* eng.traineddata */; };
-		036701991913F50300061E4E /* equ.traineddata in Resources */ = {isa = PBXBuildFile; fileRef = 036701951913F50300061E4E /* equ.traineddata */; };
-		0367019A1913F50300061E4E /* grc.traineddata in Resources */ = {isa = PBXBuildFile; fileRef = 036701961913F50300061E4E /* grc.traineddata */; };
-		0367019B1913F50300061E4E /* ita.traineddata in Resources */ = {isa = PBXBuildFile; fileRef = 036701971913F50300061E4E /* ita.traineddata */; };
+		9640206019144EFC001BA538 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9640205F19144EFC001BA538 /* test.jpg */; };
+		9640206B1914584C001BA538 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 9640206A1914584C001BA538 /* tessdata */; };
+		9640206D19147020001BA538 /* 1351185624.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9640206C19147020001BA538 /* 1351185624.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,10 +62,9 @@
 		036701851913F20800061E4E /* ShoppingBagTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingBagTests.m; sourceTree = "<group>"; };
 		0367018F1913F2A400061E4E /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TesseractOCR.framework; sourceTree = "<group>"; };
 		036701911913F33C00061E4E /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
-		036701941913F50300061E4E /* eng.traineddata */ = {isa = PBXFileReference; lastKnownFileType = file; path = eng.traineddata; sourceTree = "<group>"; };
-		036701951913F50300061E4E /* equ.traineddata */ = {isa = PBXFileReference; lastKnownFileType = file; path = equ.traineddata; sourceTree = "<group>"; };
-		036701961913F50300061E4E /* grc.traineddata */ = {isa = PBXFileReference; lastKnownFileType = file; path = grc.traineddata; sourceTree = "<group>"; };
-		036701971913F50300061E4E /* ita.traineddata */ = {isa = PBXFileReference; lastKnownFileType = file; path = ita.traineddata; sourceTree = "<group>"; };
+		9640205F19144EFC001BA538 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		9640206A1914584C001BA538 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tessdata; path = ShoppingBag/tessdata; sourceTree = "<group>"; };
+		9640206C19147020001BA538 /* 1351185624.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1351185624.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +96,7 @@
 		0367014B1913F20800061E4E = {
 			isa = PBXGroup;
 			children = (
+				9640206A1914584C001BA538 /* tessdata */,
 				0367015D1913F20800061E4E /* ShoppingBag */,
 				0367017F1913F20800061E4E /* ShoppingBagTests */,
 				036701561913F20800061E4E /* Frameworks */,
@@ -130,7 +129,6 @@
 		0367015D1913F20800061E4E /* ShoppingBag */ = {
 			isa = PBXGroup;
 			children = (
-				036701931913F50300061E4E /* tessdata */,
 				036701661913F20800061E4E /* AppDelegate.h */,
 				036701671913F20800061E4E /* AppDelegate.m */,
 				036701691913F20800061E4E /* Main_iPhone.storyboard */,
@@ -146,6 +144,8 @@
 		0367015E1913F20800061E4E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9640206C19147020001BA538 /* 1351185624.jpg */,
+				9640205F19144EFC001BA538 /* test.jpg */,
 				0367015F1913F20800061E4E /* ShoppingBag-Info.plist */,
 				036701601913F20800061E4E /* InfoPlist.strings */,
 				036701631913F20800061E4E /* main.m */,
@@ -170,17 +170,6 @@
 				036701821913F20800061E4E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		036701931913F50300061E4E /* tessdata */ = {
-			isa = PBXGroup;
-			children = (
-				036701941913F50300061E4E /* eng.traineddata */,
-				036701951913F50300061E4E /* equ.traineddata */,
-				036701961913F50300061E4E /* grc.traineddata */,
-				036701971913F50300061E4E /* ita.traineddata */,
-			);
-			path = tessdata;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,14 +248,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				036701981913F50300061E4E /* eng.traineddata in Resources */,
-				0367019A1913F50300061E4E /* grc.traineddata in Resources */,
+				9640206D19147020001BA538 /* 1351185624.jpg in Resources */,
 				0367016E1913F20800061E4E /* Main_iPad.storyboard in Resources */,
 				036701731913F20800061E4E /* Images.xcassets in Resources */,
-				0367019B1913F50300061E4E /* ita.traineddata in Resources */,
-				036701991913F50300061E4E /* equ.traineddata in Resources */,
+				9640206019144EFC001BA538 /* test.jpg in Resources */,
 				0367016B1913F20800061E4E /* Main_iPhone.storyboard in Resources */,
 				036701621913F20800061E4E /* InfoPlist.strings in Resources */,
+				9640206B1914584C001BA538 /* tessdata in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +502,7 @@
 				0367018B1913F20800061E4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0367018C1913F20800061E4E /* Build configuration list for PBXNativeTarget "ShoppingBagTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +511,7 @@
 				0367018E1913F20800061E4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

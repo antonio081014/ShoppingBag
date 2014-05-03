@@ -32,11 +32,11 @@
     // self should respond to TesseractDelegate and implement shouldCancelImageRecognitionForTesseract: method
     // to have an ability to recieve callback and interrupt Tesseract before it finishes
     
-    Tesseract* tesseract = [[Tesseract alloc] initWithLanguage:@"eng+ita"];
+    Tesseract* tesseract = [[Tesseract alloc] initWithLanguage:@"eng"];
     tesseract.delegate = self;
     
-    [tesseract setVariableValue:@"0123456789" forKey:@"tessedit_char_whitelist"]; //limit search
-    [tesseract setImage:[UIImage imageNamed:@"image_sample.jpg"]]; //image to check
+    [tesseract setVariableValue:@"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ." forKey:@"tessedit_char_whitelist"]; //limit search
+    [tesseract setImage:[UIImage imageNamed:@"1351185624.jpg"]]; //image to check
     [tesseract recognize];
     
     NSLog(@"%@", [tesseract recognizedText]);
