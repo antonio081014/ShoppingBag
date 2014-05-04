@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0331E07C191586A8004B8CF5 /* output.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0331E07B191586A8004B8CF5 /* output.txt */; };
+		0331E0811915B052004B8CF5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0331E0801915B052004B8CF5 /* AVFoundation.framework */; };
 		036701581913F20800061E4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 036701571913F20800061E4E /* Foundation.framework */; };
 		0367015A1913F20800061E4E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 036701591913F20800061E4E /* CoreGraphics.framework */; };
 		0367015C1913F20800061E4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0367015B1913F20800061E4E /* UIKit.framework */; };
@@ -14,7 +16,6 @@
 		036701641913F20800061E4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 036701631913F20800061E4E /* main.m */; };
 		036701681913F20800061E4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 036701671913F20800061E4E /* AppDelegate.m */; };
 		0367016B1913F20800061E4E /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036701691913F20800061E4E /* Main_iPhone.storyboard */; };
-		0367016E1913F20800061E4E /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0367016C1913F20800061E4E /* Main_iPad.storyboard */; };
 		036701711913F20800061E4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036701701913F20800061E4E /* ViewController.m */; };
 		036701731913F20800061E4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 036701721913F20800061E4E /* Images.xcassets */; };
 		0367017A1913F20800061E4E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 036701791913F20800061E4E /* XCTest.framework */; };
@@ -24,9 +25,7 @@
 		036701861913F20800061E4E /* ShoppingBagTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 036701851913F20800061E4E /* ShoppingBagTests.m */; };
 		036701901913F2A400061E4E /* TesseractOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0367018F1913F2A400061E4E /* TesseractOCR.framework */; };
 		036701921913F33C00061E4E /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 036701911913F33C00061E4E /* libstdc++.6.0.9.dylib */; };
-		9640206019144EFC001BA538 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9640205F19144EFC001BA538 /* test.jpg */; };
 		9640206B1914584C001BA538 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 9640206A1914584C001BA538 /* tessdata */; };
-		9640206D19147020001BA538 /* 1351185624.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9640206C19147020001BA538 /* 1351185624.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0331E07B191586A8004B8CF5 /* output.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = output.txt; sourceTree = "<group>"; };
+		0331E0801915B052004B8CF5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		036701541913F20800061E4E /* ShoppingBag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingBag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		036701571913F20800061E4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		036701591913F20800061E4E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -51,7 +52,6 @@
 		036701661913F20800061E4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		036701671913F20800061E4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0367016A1913F20800061E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		0367016D1913F20800061E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		0367016F1913F20800061E4E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		036701701913F20800061E4E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		036701721913F20800061E4E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -62,9 +62,7 @@
 		036701851913F20800061E4E /* ShoppingBagTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingBagTests.m; sourceTree = "<group>"; };
 		0367018F1913F2A400061E4E /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TesseractOCR.framework; sourceTree = "<group>"; };
 		036701911913F33C00061E4E /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
-		9640205F19144EFC001BA538 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
 		9640206A1914584C001BA538 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tessdata; path = ShoppingBag/tessdata; sourceTree = "<group>"; };
-		9640206C19147020001BA538 /* 1351185624.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1351185624.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0331E0811915B052004B8CF5 /* AVFoundation.framework in Frameworks */,
 				036701921913F33C00061E4E /* libstdc++.6.0.9.dylib in Frameworks */,
 				036701901913F2A400061E4E /* TesseractOCR.framework in Frameworks */,
 				0367015A1913F20800061E4E /* CoreGraphics.framework in Frameworks */,
@@ -116,6 +115,7 @@
 		036701561913F20800061E4E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0331E0801915B052004B8CF5 /* AVFoundation.framework */,
 				036701911913F33C00061E4E /* libstdc++.6.0.9.dylib */,
 				0367018F1913F2A400061E4E /* TesseractOCR.framework */,
 				036701571913F20800061E4E /* Foundation.framework */,
@@ -129,12 +129,10 @@
 		0367015D1913F20800061E4E /* ShoppingBag */ = {
 			isa = PBXGroup;
 			children = (
-				036701661913F20800061E4E /* AppDelegate.h */,
-				036701671913F20800061E4E /* AppDelegate.m */,
 				036701691913F20800061E4E /* Main_iPhone.storyboard */,
-				0367016C1913F20800061E4E /* Main_iPad.storyboard */,
 				0367016F1913F20800061E4E /* ViewController.h */,
 				036701701913F20800061E4E /* ViewController.m */,
+				0331E07B191586A8004B8CF5 /* output.txt */,
 				036701721913F20800061E4E /* Images.xcassets */,
 				0367015E1913F20800061E4E /* Supporting Files */,
 			);
@@ -144,8 +142,8 @@
 		0367015E1913F20800061E4E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9640206C19147020001BA538 /* 1351185624.jpg */,
-				9640205F19144EFC001BA538 /* test.jpg */,
+				036701661913F20800061E4E /* AppDelegate.h */,
+				036701671913F20800061E4E /* AppDelegate.m */,
 				0367015F1913F20800061E4E /* ShoppingBag-Info.plist */,
 				036701601913F20800061E4E /* InfoPlist.strings */,
 				036701631913F20800061E4E /* main.m */,
@@ -248,10 +246,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9640206D19147020001BA538 /* 1351185624.jpg in Resources */,
-				0367016E1913F20800061E4E /* Main_iPad.storyboard in Resources */,
 				036701731913F20800061E4E /* Images.xcassets in Resources */,
-				9640206019144EFC001BA538 /* test.jpg in Resources */,
+				0331E07C191586A8004B8CF5 /* output.txt in Resources */,
 				0367016B1913F20800061E4E /* Main_iPhone.storyboard in Resources */,
 				036701621913F20800061E4E /* InfoPlist.strings in Resources */,
 				9640206B1914584C001BA538 /* tessdata in Resources */,
@@ -312,14 +308,6 @@
 				0367016A1913F20800061E4E /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		0367016C1913F20800061E4E /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0367016D1913F20800061E4E /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		036701821913F20800061E4E /* InfoPlist.strings */ = {
@@ -421,6 +409,7 @@
 				INFOPLIST_FILE = "ShoppingBag/ShoppingBag-Info.plist";
 				OTHER_LDFLAGS = "-lstdc++";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -439,6 +428,7 @@
 				INFOPLIST_FILE = "ShoppingBag/ShoppingBag-Info.plist";
 				OTHER_LDFLAGS = "-lstdc++";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
